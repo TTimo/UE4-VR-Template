@@ -1,37 +1,56 @@
-HTC VIVE Template (soon to be general VR template)
 
-It seems the community is in need of a quality HTC Vive Template till Epic Games gets their official ones going.
+=============================
+   HTC Vive Template v2.0
+=============================
 
+##Introduction
 
-GitHub Download: 
+This template is for use in Unreal Engine 4 for commercial, non-commercial development and learning projects. 
+It designed to work with the HTC Vive Virtual Reality unit. Although its supposed to be used for the HTC Vive, 
+anyone using a Oculus Rift, Gear VR, OSVR or other HMD's can also use this template though it might need slight 
+modifications in the controller inputs. The entire template is done in UE4's node base programming system 
+called Blueprints. This can also be done in C++ however C++ code is not used in this template. 
 
-Version 1.0
+If you need more information on how to use UE4's Blueprint programming system, you may visit the official documentation by following this link:
 
-Features:
-
--Smallest VR Project EVER: So far the total project size is about 6MB, WHAT?!
--Preset Rendering Settings: Don't have to go into 'Project Settings' and change anything.
--Trackpad Input Bindings included for non-room scale locomotion
--VR-Physics World: Go have some fun with picking up and throwing objects!
-
-
-General Changes:
-
--Added HTC Vive motion controller static meshes for "hands"
--Target Hardware: Set to mobile w/ scalable 2D and 3D (this is how you achieve 6Mb project file size)
-
-Render Settings Changes:
-
--Default Postprocessing Settings: All Disabled (enable if you really need them...)
--Optimization Changes: Early Z-pass set to 'Opaque Meshes Only,' Movables in early Z-Pass enabled, Clear Scene set to 'Do Not Clear,' with Vertex Deformation and GBuffer rendertargets disabled
--Instant Stereo Rendering: Enabled
--Framerate Settings: Smooth rate, min 90, max 120, min desired 90 (this one is debatable depending on who you talk to)
-
-VR-PhysicsWorld:
-
--Postprocessing volume preset (no bloom, SSRs, etc.)
--Basic material that has been instanced
--Physics Cube Actors to interact with (pickup, throw, etc.)
+Unreal Engine 4: Blueprint Programming Documentation
+https://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html
 
 
-The download link is at the top of this post. It is on a public GitHub repo and community involvement would be awesome to see. I plan on making a shooting range and a few other levels so if anyone wants to beat me to those and add them to this project (regardless of it being Vive or Oculus based) then go right ahead :)
+If you are new to Virtual Reality programming you may also want to visit the official documentation for working with Virtual Reality equipment in Unreal Engine4.
+
+Unreal Engine 4: Virtual Reality Setup & Use
+https://docs.unrealengine.com/latest/INT/Platforms/VR/?lang=zh-CN
+
+
+
+##v2.0 Beta Changelist
+
+- Improved 'Pickup Object' ability
+
+- Changed Render settings in the Project Settings menu back to default due to recent changes to the way rendering happens while using VR
+
+- Pickup ability used to be triggered by the Grip buttons or Triggers but that proved to be too messy to be used in a template. Removed the Trigger pickup ability and 
+  replaced all individual button events with Input Events.
+
+- Fixed Player Spawn
+
+- Added new Vive Controller Meshes. These are Skeletal and have animations for the trigger pulls as well as trackpad thumb gesture tracking.
+
+
+##v2.0 Future Additions
+
+- Ability to Teleport from location to location
+
+- Weapons
+
+- Effects for weapon/item use
+
+- Proper use of VFX
+
+- Proper use of AFX
+
+
+For more information on this template please visit the official Unreal Engine 4 Forums thread:
+
+https://forums.unrealengine.com/showthread.php?108302-HTC-Vive-Template
