@@ -3,13 +3,13 @@
    HTC Vive Template v2.0
 =============================
 
-##Introduction##
+##Introduction
 
-This template is for use in Unreal Engine 4 for use in development or learning projects. It designed to work
-with the HTC Vive Virtual Reality unit. Although its supposed to be used for the HTC Vive, anyone using a
-Oculus Rift, Gear VR, OSVR or other HMD's can also use this template though it might need slight modifications 
-in the controller inputs. The entire template is done in UE4's node base programming system called Blueprints. 
-This can also be done in C++ however C++ code is not used in this template. 
+This template is for use in Unreal Engine 4 for commercial, non-commercial development and learning projects. 
+It designed to work with the HTC Vive Virtual Reality unit. Although its supposed to be used for the HTC Vive, 
+anyone using a Oculus Rift, Gear VR, OSVR or other HMD's can also use this template though it might need slight 
+modifications in the controller inputs. The entire template is done in UE4's node base programming system 
+called Blueprints. This can also be done in C++ however C++ code is not used in this template. 
 
 If you need more information on how to use UE4's Blueprint programming system, you may visit the official documentation by following this link:
 
@@ -24,7 +24,7 @@ https://docs.unrealengine.com/latest/INT/Platforms/VR/?lang=zh-CN
 
 
 
-##v2.0 Beta Changelist##
+##v2.0 Beta Changelist
 
 - Improved 'Pickup Object' ability
 
@@ -38,7 +38,7 @@ https://docs.unrealengine.com/latest/INT/Platforms/VR/?lang=zh-CN
 - Added new Vive Controller Meshes. These are Skeletal and have animations for the trigger pulls as well as trackpad thumb gesture tracking.
 
 
-##v2.0 Future Additions## 
+##v2.0 Future Additions
 
 - Ability to Teleport from location to location
 
