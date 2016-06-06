@@ -17,7 +17,7 @@ Unreal Engine 4: Blueprint Programming Documentation
 https://docs.unrealengine.com/latest/INT/Engine/Blueprints/index.html
 
 
-If you are new to Virtual Reality programming you may also want to visit the official documentation for working with Virtual Reality equipment in Unreal Engine 4.
+If you are new to Virtual Reality programming you may also want to visit the official documentation for working with Virtual Reality equipment in Unreal Engine 4:
 
 Unreal Engine 4: Virtual Reality Documentation
 https://docs.unrealengine.com/latest/INT/Platforms/VR/?lang=zh-CN
