@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.12",
+	"EngineAssociation": "{E5BBAFE8-4E32-0D59-5AB6-52AE9FC386FE}",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -24,6 +24,7 @@
 		}
 	],
 	"TargetPlatforms": [
-		"WindowsNoEditor"
+		"WindowsNoEditor",
+		"LinuxNoEditor"
 	]
 }
